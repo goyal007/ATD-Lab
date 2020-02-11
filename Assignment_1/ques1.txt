@@ -1,0 +1,10 @@
+Assignment-1
+
+Design as well as implement a parser for the subset of SQL with following constructs.
+
+1) CREATE TABLE STATEMENT
+2) DROP TABLE
+3) SELECT STATEMENT
+4) INSERT STATEMENT
+5) UPDATE STATEMENT
+6) DELETE STATEMENT
