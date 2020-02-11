@@ -8,3 +8,6 @@ Design as well as implement a parser for the subset of SQL with following constr
 4) INSERT STATEMENT
 5) UPDATE STATEMENT
 6) DELETE STATEMENT
+
+Link to understand ply:
+http://www.dabeaz.com/ply/ply.html
