@@ -1,0 +1,1 @@
+To use these example, copy content of inp file(inp1.txt  inp2.txt  inp3.txt) and paste it in Input-File.txt to run the code for the following inp file.

@@ -1,0 +1,10 @@
+edges of the graph::
+T2->T1
+T1->T2
+T3->T2
+
+It is non-serializable schedule
+
+Cycles in the graph:
+
+T2->T1->T2 

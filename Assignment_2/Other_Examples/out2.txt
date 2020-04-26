@@ -1,0 +1,13 @@
+edges of the graph::
+T2->T3
+T2->T1
+T2->T4
+T3->T1
+T3->T4
+T1->T4
+
+It is conflict serializable schedule
+
+Corresponding Serializability order for given concurrent schedule:
+
+< T2 T3 T1 T4 >
