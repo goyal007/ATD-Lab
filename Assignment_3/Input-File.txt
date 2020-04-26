@@ -1,0 +1,1 @@
+[ Sigma age>20 ^ marks>25 ( [ Project age ( Project age,marks ( Student ) ) ] Join Student_age=Teacher_age [ Sigma age>25 ( Sigma marks>35 ( Teacher ) ) ] ) ]
