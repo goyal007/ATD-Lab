@@ -1,0 +1,3 @@
+The Assignment 3 for the course is as follows:
+
+Convert given relational expression into all possible equivalent expressions using the equivalence rules.
