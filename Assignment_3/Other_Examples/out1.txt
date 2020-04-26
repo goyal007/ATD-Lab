@@ -1,0 +1,6 @@
+Given Expression: [ Sigma Ashish_income=Aman_income ( Ashish Union Aman ) ]
+Equivalence Rules used are:
+Rule 11 
+There are total 2 possible Equivalent expressions for the given expression :
+Sigma Ashish_income=Aman_income ( Ashish Union Aman )
+Sigma Ashish_income=Aman_income ( Ashish ) Union Sigma Ashish_income=Aman_income ( Aman )

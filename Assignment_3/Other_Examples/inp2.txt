@@ -1,0 +1,1 @@
+[ Project mark,age ( [ Sigma age>10 ^ mark>21 ( [ Project age ( Project age,marks ( Student ) ) ] ) ] Union [ Sigma mark>15 ( Sigma age>21 ( Teacher ) ) ] ) ]

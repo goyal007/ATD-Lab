@@ -1,0 +1,6 @@
+Given Expression: [ Sigma age>21 ^ mark>35 ( Student ) ]
+Equivalence Rules used are:
+Rule 1 
+There are total 2 possible Equivalent expressions for the given expression :
+Sigma age>21 ^ mark>35 ( Student )
+Sigma age>21 ( Sigma mark>35 ( Student ) )

@@ -1,0 +1,23 @@
+Given Expression: [ Project mark,age ( [ Sigma age>10 ^ mark>21 ( [ Project age ( Project age,marks ( Student ) ) ] ) ] Union [ Sigma mark>15 ( Sigma age>21 ( Teacher ) ) ] ) ]
+Equivalence Rules used are:
+Rule 3 
+Rule 1 
+Rule 2 
+Rule 12 
+There are total 16 possible Equivalent expressions for the given expression :
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Project age,marks ( Student ) ) ) Union Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Project age,marks ( Student ) ) ) Union Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Student ) ) Union Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Student ) ) Union Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) Union Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) Union Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Student ) ) ) Union Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Student ) ) ) Union Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) Union Project mark,age ( Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) Union Project mark,age ( Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Student ) ) ) Union Project mark,age ( Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ^ mark>21 ( Project age ( Student ) ) ) Union Project mark,age ( Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) ) Union Project mark,age ( Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Project age,marks ( Student ) ) ) ) ) Union Project mark,age ( Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Student ) ) ) ) Union Project mark,age ( Sigma mark>15 ( Sigma age>21 ( Teacher ) ) )
+Project mark,age ( Sigma age>10 ( Sigma mark>21 ( Project age ( Student ) ) ) ) Union Project mark,age ( Sigma age>21 ( Sigma mark>15 ( Teacher ) ) )
