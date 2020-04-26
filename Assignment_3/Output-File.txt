@@ -1,0 +1,14 @@
+Given Expression: [ Sigma age>20 ^ marks>25 ( [ Project age ( Project age,marks ( Student ) ) ] Join Student_age=Teacher_age [ Sigma age>25 ( Sigma marks>35 ( Teacher ) ) ] ) ]
+Equivalence Rules used are:
+Rule 3 
+Rule 2 
+Rule 7 
+There are total 8 possible Equivalent expressions for the given expression :
+Sigma age>20 ^ marks>25 ( Project age ( Project age,marks ( Student ) ) Join Student_age=Teacher_age Sigma age>25 ( Sigma marks>35 ( Teacher ) ) )
+Sigma age>20 ^ marks>25 ( Project age ( Project age,marks ( Student ) ) Join Student_age=Teacher_age Sigma marks>35 ( Sigma age>25 ( Teacher ) ) )
+Sigma age>20 ^ marks>25 ( Project age ( Student ) Join Student_age=Teacher_age Sigma age>25 ( Sigma marks>35 ( Teacher ) ) )
+Sigma age>20 ^ marks>25 ( Project age ( Student ) Join Student_age=Teacher_age Sigma marks>35 ( Sigma age>25 ( Teacher ) ) )
+( Sigma age>20 ( Project age ( Project age,marks ( Student ) ) ) ) Join Student_age=Teacher_age ( Sigma marks>25 ( Sigma age>25 ( Sigma marks>35 ( Teacher ) ) ) )
+( Sigma age>20 ( Project age ( Project age,marks ( Student ) ) ) ) Join Student_age=Teacher_age ( Sigma marks>25 ( Sigma marks>35 ( Sigma age>25 ( Teacher ) ) ) )
+( Sigma age>20 ( Project age ( Student ) ) ) Join Student_age=Teacher_age ( Sigma marks>25 ( Sigma age>25 ( Sigma marks>35 ( Teacher ) ) ) )
+( Sigma age>20 ( Project age ( Student ) ) ) Join Student_age=Teacher_age ( Sigma marks>25 ( Sigma marks>35 ( Sigma age>25 ( Teacher ) ) ) )
